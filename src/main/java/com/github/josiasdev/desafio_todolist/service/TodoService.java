@@ -14,7 +14,7 @@ public class TodoService {
     /* Injeção de dependência:
     *  via atributo usando @Autowired
     *  via método.
-    * via construtor
+    *  via construtor
     * */
 
     // Injeção de dependência via construtor.
@@ -27,7 +27,7 @@ public class TodoService {
         return list();
     }
 
-    // listando todos os todos e ordendando pela a prioridade maior e os nomes em ordem alfabética
+    // listando todos e ordendando pela a prioridade maior e os nomes em ordem alfabética
     public List<Todo> list(){
         Sort sort = Sort.by("prioridade").descending().and(
                 Sort.by("nome").ascending());
