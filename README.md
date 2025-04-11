@@ -79,7 +79,7 @@ O Swagger poderá ser visualizado em [http://localhost:8080/swagger-ui/index.htm
 # 📌 Endpoints da API
 Para testar os endpoints, você pode usar o Postman ou a ferramenta HTTPie.
 
-- Criar Tarefa
+## Criar Tarefa
 - Método: POST
 - URL: http://localhost:8080/todos
 - Corpo da Requisição (JSON):
@@ -95,7 +95,7 @@ Para testar os endpoints, você pode usar o Postman ou a ferramenta HTTPie.
 ```
 
 
-- Listar Tarefas
+## Listar Tarefas
 - Método: GET
 - URL: http://localhost:8080/todos
 - Resposta:
@@ -109,7 +109,7 @@ Para testar os endpoints, você pode usar o Postman ou a ferramenta HTTPie.
   }
 ```
 
-- Atualizar Tarefa
+## Atualizar Tarefa
 - Método: PUT
 - URL: http://localhost:8080/todos
 - Corpo da Requisição (JSON):
@@ -123,7 +123,7 @@ Para testar os endpoints, você pode usar o Postman ou a ferramenta HTTPie.
   }
 ```
 
-- Remover Tarefa
+## Remover Tarefa
 - Método: DELETE
 - URL: http://localhost:8080/todos/{id}
 - Exemplo: http://localhost:8080/todos/1
